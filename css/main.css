@@ -125,17 +125,17 @@ p {
 
  }
 
- .header-main-sm-fb {
+ .header-main-sm-yt {
      width: 20px;
      height: 20px;
-     background-image: url(../img/facebook.png);
+     background-image: url(../img/youtube.png);
      background-repeat: no-repeat;
      background-size: cover;
 
  }
 
- .header-main-sm-fb:hover {
-    background-image: url(../img/facebook-color.png);
+ .header-main-sm-yt:hover {
+    background-image: url(../img/youtube-color.png);
  
 }
 
