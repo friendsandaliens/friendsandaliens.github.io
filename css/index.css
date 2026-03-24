@@ -70,7 +70,6 @@ main .main-intro {
     column-gap: 60px;
 }
 
-
 .index-about-img img {
     width: 300px;
     border-radius: 300px;
@@ -86,19 +85,39 @@ main .main-intro {
     color: rgb(199, 199, 199);
 }
 
-.index-about-text a {
-        font-family: 'RobotoMedium', sans-serif;
-        font-size: 15px;
-        color: #000;
-        display: block;
-        height: 36px;
-        line-height: 36px;
-        background-color: rgb(179, 179, 179);
-        padding: 0 20px;
-        width: fit-content;
-    }
+/* normal inline links inside paragraphs */
+.index-about-text p a {
+    color: rgb(214, 214, 214);
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    display: inline;
+    height: auto;
+    line-height: inherit;
+    width: auto;
+}
 
-.index-about-text a:hover {
+/* optional subtle hover for inline links */
+.index-about-text p a:hover {
+    color: #fff;
+    background: none;
+}
+
+/* button links only */
+.index-about-text a.button {
+    font-family: 'RobotoMedium', sans-serif;
+    font-size: 15px;
+    color: #000;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(179, 179, 179);
+    padding: 0 20px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.index-about-text a.button:hover {
     background-color: rgb(148, 148, 148);
 }
 
